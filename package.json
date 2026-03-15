@@ -1,9 +1,9 @@
 {
-  "name": "Colour Predictor Website",
+  "name": "colour-predictor-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@jsr/supabase__supabase-js": "^2.49.8",
+    "@supabase/supabase-js": "^2.49.8",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-alert-dialog": "^1.1.6",
     "@radix-ui/react-aspect-ratio": "^1.1.2",
@@ -55,6 +55,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
